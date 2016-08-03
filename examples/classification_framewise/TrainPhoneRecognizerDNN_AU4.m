@@ -20,7 +20,7 @@ para.stopImprovement = 0.1;         % when to stop the training, Most of time I 
 para.reduceLearnRate = 0.5;         % when to start reducing learning rate
 para.reduceLearnRateSpeed = 0.7;    % how fast do we decay the learning rate in each iteration
 para.maxItr = 50;                   % maximum number of iterations allowed
-para.minItr = 10;                   % maximum number of iterations allowed
+para.minItr = 10;                   % minimum number of iterations allowed
 
 clean_cond = 1;
 [Data_tr, Data_cv, para] = LoadData_AU4(para, clean_cond);
